@@ -5,9 +5,6 @@
 //1.5 Liv och död - scope/intro till pekare
 //2. deklaration vs definition
 //3. flera filer! .h + .c + Makefile
-//4. Stefans safeinput - använd!
-//    https://github.com/aspcodenet/ccode2
-//5. funktionspekare???
 
 int main() {  
     while(true){
