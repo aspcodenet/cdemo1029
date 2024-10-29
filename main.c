@@ -11,11 +11,11 @@
 
 int main() {  
     while(true){
-        printf("Spelet körs");
+        printf("Game running...and done");
         char message[20];
-        printf("Vill du fortsätta J/N?"); 
+        printf("Wanna play again Y/N?"); 
         scanf(" %s", message);
-        if(message[0] == 'J'){
+        if(message[0] == 'N'){
             break;
         }       
     } 
