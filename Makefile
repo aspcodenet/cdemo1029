@@ -1,6 +1,6 @@
 PROG = main.exe 
 SRC = main.c inputhelpers.c
-CFLAGS=-Wall -Werror
+CFLAGS=-Wall -Werror -g
 LIBS = 
 all: $(PROG)
 $(PROG): $(SRC)
