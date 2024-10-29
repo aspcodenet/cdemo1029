@@ -11,11 +11,14 @@
 
 int main() {  
     while(true){
-        printf("Game running...and done");
-        char message[20];
-        printf("Wanna play again Y/N?"); 
-        scanf(" %s", message);
-        if(message[0] == 'N'){
+        printf("1. Skapa ny player\n");
+        printf("2. Uppdatera player\n");
+        printf("3. Lista alla players\n");
+        printf("4. Exit\n");
+        printf("Vad vill du göra?");
+        int selection;
+        scanf(" %d", &selection);
+        if(selection == 4){
             break;
         }       
     } 
